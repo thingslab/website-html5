@@ -1,0 +1,14 @@
+{
+  "name": "thingslab-website",
+  "version": "0.0.0",
+  "authors": [
+    "aziflaj <aldoziflaj95@gmail.com>"
+  ],
+  "description": "The HTML5 version of Things Lab website (www.thingslab.cc)",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "www.thingslab.cc",
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
