@@ -1,11 +1,42 @@
 body {
     text-align: center;
+    font-size: 16px;
 }
 
+/***************************\
+|   'Things Lab' section    |
+\***************************/
 .thingslab {
     background-color: #31b0d5;
 }
 
+.thingslab h1 {
+    font-size: 3em;
+}
+
+.thingslab__motto {
+    font-size: 2em;
+}
+
+.thingslab__description {
+    font-size: 1.5em;
+}
+
+/***************************\
+|       Moto  section       |
+\***************************/
 .motto-explained {
     background-color: skyblue;
+    padding: 2em;
 }
+
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+    background-color: #444;
+}
+
+.carousel-caption { position: absolute; }

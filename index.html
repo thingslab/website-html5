@@ -25,32 +25,77 @@
 
 <section class="thingslab">
     <h1>Things Lab</h1>
-    <div class="thingslab__motto">Learn | Make Share</div>
+    <div class="thingslab__motto">Learn | Make | Share</div>
     <p class="thingslab__description">
-        Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!
+        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
     </p>
-    <i class="fa fa-chevron-down"></i>
+    <a data-scroll href="#motto">
+        <i class="fa fa-chevron-down"></i>
+    </a>
 </section>
 
-<section class="motto-explained">
+<section id="motto" class="motto-explained">
     <div class="row">
         <div class="col-md-4">
-            Learn
+            <i class="fa fa-book fa-4x"></i>
+            <h1>Learn</h1>
+            <p>If you want to make something new or hack something existent, you are in the right place. Nobody is born genius, so first, you get to learn how to do stuff. Here we don’t learn in the conventional way... Instead, you can participate in brief and catchy presentations, interactive discussions and debates, live workshops and profit from peer-to-peer support. At the end, you will know how to proceed with making your idea a reality, but also learn how to teach.</p>
         </div>
 
         <div class="col-md-4">
-            Make
+            <i class="fa fa-cogs fa-4x"></i>
+            <h1>Make</h1>
+            <p>Learned some new stuff? Now it’s time to put it into practice and make some real Things. Short after base concepts are explained by workshops or presentations, we can start immediately to try and make Things together. If you are stuck somewhere between wires or code, you can get help in an instant. If you have some experience, your help to others is always needed.</p>
         </div>
 
         <div class="col-md-4">
-            Share
+            <i class="fa fa-share fa-4x"></i>
+            <h1>Share</h1>
+            <p>Let your friends know what cool and crazy Things you’ve made here. You can use our social media accounts to share your work, get support and feedback, as well as have more friends to join and profit from the Lab's activities. Sharing knowledge is not like sharing pizza. Instead, you enter with your whole pizza and everyone comes out with an even bigger pizza. So let’s share pizza... um, knowledge!</p>
         </div>
     </div>
 </section>
 
+<section class="testimonials">
+    <div id="carousel-testimonials" class="carousel slide" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+            <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <h1 class="name">Foo Bar</h1>
+                <p>The best place to Learn</p>
+            </div>
+            <div class="item">
+                <h1 class="name">Baz Bar</h1>
+                <p>The best place to Make</p>
+            </div>
+            <div class="item">
+                <h1 class="name">Zue Bats</h1>
+                <p>Hashurrullalla</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    footer
+</footer>
 
 <!-- SCRIPTS -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script>
+    //initialize smoothscroll.js
+    smoothScroll.init();
+
+    //start the carousels
+    $('.carousel').carousel();
+</script>
 </body>
 </html>
