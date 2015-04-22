@@ -7,17 +7,27 @@
 </head>
 <body>
 
-<span class="elem"></span>
+<div id="typo"></div>
+<div id="corrector"></div>
+<div id="yes"></div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/typed.js/dist/typed.min.js"></script>
+<script src="bower_components/theaterjs/build/theater.min.js"></script>
 <script>
-    $(function(){
-        $('.elem').typed({
-            strings: ["First sentence.", "Second sentence."],
-            typeSpeed: 0
-        });
-    });
+    var theater = new TheaterJS();
+
+    //set actors
+    theater
+        .describe("ThingsLab", 1, "#typo")
+        .describe("InnocentUser", 1, "#corrector")
+        .describe("y-sir", .6 , "#yes");
+
+    //scenario
+    theater
+        .write("ThingsLab:It looks like you made a tpyo.", 600)
+        .write("InnocentUser:You mean,", 600, " \"a typo\"?")
+        .write("y-sir:Yes...", 200);
+
 </script>
 </body>
 </html>
