@@ -30,6 +30,9 @@ body {
     padding: 2em;
 }
 
+/***************************\
+|   Testimonials  section   |
+\***************************/
 .carousel-indicators li {
     background-color: #999;
     background-color: rgba(70,70,70,.25);
@@ -40,3 +43,16 @@ body {
 }
 
 .carousel-caption { position: absolute; }
+
+/***************************\
+|          Footer           |
+\***************************/
+footer {
+    background-color: #282E37;
+    color: #777;
+    text-align: left;
+}
+
+.social-footer {
+    list-style: none;
+}
