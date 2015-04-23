@@ -1,17 +1,25 @@
 body {
     text-align: center;
     font-size: 16px;
+    position: absolute;
+}
+
+.main {
+    background-color: #9DE1FF;
+    height: 100vh;
 }
 
 /***************************\
 |   'Things Lab' section    |
 \***************************/
 .thingslab {
-    background-color: #9DE1FF;
-    height: 100vh;
+    position: absolute;
+    margin: 0 3em;
+    top: 12%;
+    /* color: #fff; */
 }
 
-.thingslab h1 {
+.thingslab__title {
     font-size: 3em;
 }
 
@@ -20,7 +28,13 @@ body {
 }
 
 .thingslab__description {
+    padding-top: 2em;
     font-size: 1.5em;
+}
+
+a.down {
+    color: #fff;
+    font-size: 3em;
 }
 
 /***************************\
