@@ -8,6 +8,7 @@ body {
 \***************************/
 .thingslab {
     background-color: #9DE1FF;
+    height: 100vh;
 }
 
 .thingslab h1 {
@@ -42,7 +43,9 @@ body {
     background-color: #444;
 }
 
-.carousel-caption { position: absolute; }
+.carousel-caption {
+    position: absolute;
+}
 
 /***************************\
 |          Footer           |
