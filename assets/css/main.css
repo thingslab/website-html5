@@ -72,6 +72,17 @@ a.down {
     padding: 2em;
 }
 
+.motto__learn-descr,
+.motto__make-descr,
+.motto__share-descr
+{ text-align: left; }
+
+.learn-icon > i,
+.make-icon > i,
+.share-icon > i
+{ margin-top: 1em }
+
+
 /***************************\
 |   Testimonials  section   |
 \***************************/
