@@ -75,6 +75,9 @@ a.down {
 /***************************\
 |   Testimonials  section   |
 \***************************/
+.item {
+    padding-bottom: 2em;
+}
 .carousel-indicators li {
     background-color: #999;
     background-color: rgba(70,70,70,.25);
