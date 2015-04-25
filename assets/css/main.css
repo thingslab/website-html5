@@ -30,6 +30,10 @@ body {
     color: #F62459;
 }
 
+a.nav-item.active {
+    color: #F62459;
+}
+
 a.nav-item {
     text-decoration: none;
     color: #ececec;
