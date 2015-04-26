@@ -3,7 +3,13 @@ var main = function() {
     smoothScroll.init();
 
     //start the carousels
+
     $('.carousel').carousel();
+    /*
+    $('.owl-carousel').owlCarousel({
+        singleItem: true
+    });
+     */
 
     //navigation hamburger icon
     $(".button-collapse").sideNav();
