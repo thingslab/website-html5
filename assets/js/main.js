@@ -4,6 +4,9 @@ var main = function() {
 
     //start the carousels
     $('.carousel').carousel();
+
+    //navigation hamburger icon
+    $(".button-collapse").sideNav();
 };
 
 $(document).ready(main);
