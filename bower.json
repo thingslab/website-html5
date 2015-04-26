@@ -15,5 +15,7 @@
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git",
     "theaterjs": "~1.4.2",
     "ionicons": "~2.0.1",
+    "respond": "~1.4.2",
+    "html5shiv": "~3.7.2"
   }
 }
