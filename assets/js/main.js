@@ -2,14 +2,14 @@ var main = function() {
     //initialize smoothscroll.js
     smoothScroll.init();
 
-    //start the carousels
-
-    $('.carousel').carousel();
-    /*
-    $('.owl-carousel').owlCarousel({
-        singleItem: true
+    $('#carousel-testimonials').flexslider({
+        animation: "slide",
+        smoothHeight: true,
+        slideshowSpeed: 3000,
+        pauseOnHover: true,
+        controlNav: false,
+        directionNav: false
     });
-     */
 
     //navigation hamburger icon
     $(".button-collapse").sideNav();
