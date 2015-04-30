@@ -4,7 +4,7 @@ var theater = new TheaterJS();
 theater
     .describe("ThingsLab", 1, "#typo")
     .describe("InnocentUser", 1, "#corrector")
-    .describe("y-sir", .6 , "#yes");
+    .describe("y-sir", 0.6 , "#yes");
 
 //scenario
 theater
