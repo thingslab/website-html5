@@ -1,17 +1,18 @@
 var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     sass = require('gulp-sass'),
-    jshint = require('gulp-jshint');
+    jshint = require('gulp-jshint'),
+    minifyCss = require('gulp-minify-css');
 
-gulp.task('autoprefix', function() {
-    gulp.src('assets/css/*.css')
+gulp.task('minify-css', function() {
+    return gulp.src('assets/css/*.css')
         .pipe(autoprefixer())
-        //.pipe(header('/* Copyright (c) Things Lab 2015 */'))
-        .pipe(gulp.dest('public/css'));
+        .pipe(minifyCss({compatibility: 'ie8'}))
+        .pipe(gulp.dest('public/css/*.min.css'));
 });
 
 gulp.task('jshint', function() {
-    gulp.src('assets/js/*.js')
+    return gulp.src('assets/js/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
