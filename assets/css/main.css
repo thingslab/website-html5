@@ -66,7 +66,7 @@ and (max-width: 600px)
     margin-top: 1em;
 }
 
-.icon_book_alt, .icon_tools, .icon_globe {
+.ion-ionic, .icon_book_alt, .icon_tools, .icon_globe {
     font-size: 6em;
 
 }
